@@ -1,0 +1,86 @@
+
+blah GET http://localhost:30976/home.html HTTP/1.1
+blah GET http://localhost:30976/csapp.c HTTP/1.1
+blah GET http://localhost:30976/tiny.c HTTP/1.1
+blah GET http://localhost:30976/godzilla.jpg HTTP/1.1
+blah GET http://localhost:30976/tiny HTTP/1.1
+blah GET http://localhost:11924/tiny.c HTTP/1.1
+blah GET http://localhost:11924/home.html HTTP/1.1
+blah GET http://localhost:11924/csapp.c HTTP/1.1
+blah GET http://localhost:11924/home.html HTTP/1.1
+blah GET http://localhost:17725/home.html HTTP/1.1
+cache: (null)blah GET http://localhost:20179/home.html HTTP/1.1 (null)
+cache: (null)blah GET http://localhost:2948/tiny.c HTTP/1.1 (null)
+cache: (null)blah GET http://localhost:22860/home.html HTTP/1.1 (null)
+blah GET http://localhost:30020/home.html HTTP/1.1 
+blah GET http://localhost:2898/tiny.c HTTP/1.1 
+blah GET http://localhost:21367/home.html HTTP/1.1 
+blah GET http://localhost:32357/home.html HTTP/1.1 cake: 
+blah GET http://localhost:17755/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:7196/home.html HTTP/1.1 cake: 
+blah GET http://localhost:33000/home.html HTTP/1.1 cake: 
+blah GET http://localhost:31434/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:2025/home.html HTTP/1.1 cake: 
+blah GET http://localhost:8417/home.html HTTP/1.1 cake: 
+blah GET http://localhost:8417/csapp.c HTTP/1.1 cake: 
+blah GET http://localhost:8417/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:8417/godzilla.jpg HTTP/1.1 cake: 
+blah GET http://localhost:8417/tiny HTTP/1.1 cake: 
+blah GET http://localhost:30948/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:30948/home.html HTTP/1.1 cake: 
+blah GET http://localhost:30948/csapp.c HTTP/1.1 cake: 
+blah GET http://localhost:30948/home.html HTTP/1.1 cake: 
+blah GET http://localhost:32887/home.html HTTP/1.1 cake: 
+blah GET http://localhost:20916/home.html HTTP/1.1 cake: 
+blah GET http://localhost:23155/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:25607/home.html HTTP/1.1 cake: 
+blah GET http://localhost:11944/home.html HTTP/1.1 cake: 
+blah GET http://localhost:11944/csapp.c HTTP/1.1 cake: http , 
+blah GET http://localhost:11944/tiny.c HTTP/1.1 cake: http , http , 
+blah GET http://localhost:11944/godzilla.jpg HTTP/1.1 cake: http , http , http , 
+blah GET http://localhost:11944/tiny HTTP/1.1 cake: http , http , http , http , 
+blah GET http://localhost:7697/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:7697/home.html HTTP/1.1 cake: http , 
+blah GET http://localhost:7697/csapp.c HTTP/1.1 cake: http , http , 
+blah GET http://localhost:7697/home.html HTTP/1.1 cake: http , http , http , 
+blah GET http://localhost:1035/home.html HTTP/1.1 cake: 
+blah GET http://localhost:27140/home.html HTTP/1.1 cake: 
+blah GET http://localhost:27140/csapp.c HTTP/1.1 cake: http , 
+blah GET http://localhost:27140/tiny.c HTTP/1.1 cake: http , http , 
+blah GET http://localhost:27140/godzilla.jpg HTTP/1.1 cake: http , http , http , 
+blah GET http://localhost:27140/tiny HTTP/1.1 cake: http , http , http , http , 
+blah GET http://localhost:16349/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:16349/home.html HTTP/1.1 cake: http , 
+blah GET http://localhost:16349/csapp.c HTTP/1.1 cake: http , http , 
+blah GET http://localhost:16349/home.html HTTP/1.1 cake: http , http , http , 
+blah GET http://localhost:19543/home.html HTTP/1.1 cake: 
+blah GET http://localhost:15954/home.html HTTP/1.1 cake: 
+blah GET http://localhost:15954/csapp.c HTTP/1.1 cake: http://localhost:159 , 
+blah GET http://localhost:15954/tiny.c HTTP/1.1 cake: http://localhost:159 , http://localhost:159 , 
+blah GET http://localhost:15954/godzilla.jpg HTTP/1.1 cake: http://localhost:159 , http://localhost:159 , http://localhost:159 , 
+blah GET http://localhost:15954/tiny HTTP/1.1 cake: http://localhost:159 , http://localhost:159 , http://localhost:159 , http://localhost:159 , 
+blah GET http://localhost:2077/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:2077/home.html HTTP/1.1 cake: http://localhost:207 , 
+blah GET http://localhost:2077/csapp.c HTTP/1.1 cake: http://localhost:207 , http://localhost:207 , 
+blah GET http://localhost:2077/home.html HTTP/1.1 cake: http://localhost:207 , http://localhost:207 , http://localhost:207 , 
+blah GET http://localhost:17668/home.html HTTP/1.1 cake: 
+blah GET http://localhost:12016/home.html HTTP/1.1 cake: 
+blah GET http://localhost:12016/csapp.c HTTP/1.1 cake: http://localhost:12016/home.html , 
+blah GET http://localhost:12016/tiny.c HTTP/1.1 cake: http://localhost:12016/csapp.c , http://localhost:12016/home.html , 
+blah GET http://localhost:12016/godzilla.jpg HTTP/1.1 cake: http://localhost:12016/tiny.c , http://localhost:12016/csapp.c , http://localhost:12016/home.html , 
+blah GET http://localhost:12016/tiny HTTP/1.1 cake: http://localhost:12016/godzilla.jpg , http://localhost:12016/tiny.c , http://localhost:12016/csapp.c , http://localhost:12016/home.html , 
+blah GET http://localhost:16069/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:16069/home.html HTTP/1.1 cake: http://localhost:16069/tiny.c , 
+blah GET http://localhost:16069/csapp.c HTTP/1.1 cake: http://localhost:16069/home.html , http://localhost:16069/tiny.c , 
+blah GET http://localhost:16069/home.html HTTP/1.1 cake: http://localhost:16069/csapp.c , http://localhost:16069/home.html , http://localhost:16069/tiny.c , 
+reached cache lookupblah GET http://localhost:1875/home.html HTTP/1.1 cake: 
+blah GET http://localhost:15919/home.html HTTP/1.1 cake: 
+blah GET http://localhost:15919/csapp.c HTTP/1.1 cake: http://localhost:15919/home.html , 
+blah GET http://localhost:15919/tiny.c HTTP/1.1 cake: http://localhost:15919/csapp.c , http://localhost:15919/home.html , 
+blah GET http://localhost:15919/godzilla.jpg HTTP/1.1 cake: http://localhost:15919/tiny.c , http://localhost:15919/csapp.c , http://localhost:15919/home.html , 
+blah GET http://localhost:15919/tiny HTTP/1.1 cake: http://localhost:15919/godzilla.jpg , http://localhost:15919/tiny.c , http://localhost:15919/csapp.c , http://localhost:15919/home.html , 
+blah GET http://localhost:5221/tiny.c HTTP/1.1 cake: 
+blah GET http://localhost:5221/home.html HTTP/1.1 cake: http://localhost:5221/tiny.c , 
+blah GET http://localhost:5221/csapp.c HTTP/1.1 cake: http://localhost:5221/home.html , http://localhost:5221/tiny.c , 
+blah GET http://localhost:5221/home.html HTTP/1.1 cake: http://localhost:5221/csapp.c , http://localhost:5221/home.html , http://localhost:5221/tiny.c , 
+reached cache lookupblah GET http://localhost:4732/home.html HTTP/1.1 cake: 

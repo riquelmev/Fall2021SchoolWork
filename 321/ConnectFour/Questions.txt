@@ -1,0 +1,40 @@
+1. When rollout is 100, player 1 wins 25/25 games against a naïve opponent. 
+2. When rollout is 100, player 2 wins 24/25 games against a naïve opponent. 
+3. With 25 games, each with 25 rollouts:
+
+UCB Constant and their winrates:
+0 =23/25 wins
+0.1 = 23/25 wins
+Sqrt(2) = 24/25 wins
+0.4 = 23/25 wins
+0.5 = 24/25 wins
+0.6 = 24/25 wins 
+0.8 = 22/25 wins
+2 = 22/25 wins
+5 = 20/25 wins
+10 = 23/25 wins
+
+I’m seeing a little bit of variation here. I also tried using 100 rollouts, but found that I would win 24/25 regardless of the constant. I think this is because with a high enough rollout, I explore nodes and end up in favorable positions anyways.
+However, it does seem like there is a slight advantage near the 0.5 mark, as the winrates are slightly higher. This is probably due to this being an advantageous constant as it allows for the first and second halves of the equation to contribute while neither dominates. 
+A higher UCB value places more of an emphasis on the second half of the equation, which factors in the visits of the parents, and thus gives higher scores to nodes that have been chosen less. Conversely, a lower value conversely causes the equation to be more heavily biased towards the win rate of that node.
+
+
+4.
+
+32 vs 8 rollouts, 20/25.
+8 vs 32 rollouts, 8/25
+64 vs 8 rollouts: 20/25. 1 draw
+8 vs 64 rollouts: 2/25, 2 draws
+64 vs 32 rollouts: 14/25, 1 draw
+32 vs 64 rollouts: 13/25, 3 draws 
+128 vs 8 rollouts: 24/25. 0 draws
+8 vs 128 rollouts: 1/25, 1 draw
+256 vs 8 rollouts: 23/25, 1 draw
+8 vs 256 rollouts: 1/25, 1 draw
+256 vs 128 rollouts:16/25 rollouts, 4 draws
+128 vs 256 rollouts: 9/25, 2 draws
+512 vs 8 22/25 rollouts, 0 draws
+8 vs 512 rollouts: 1/25
+
+From my results, it seems that ratio of rollouts is a bigger factor than the actual number of rollouts. However, it does not guarantee that you will always win, just makes it more likely. That is due to the fact the MCTS relies heavily on randomness. Also, I saw similar results regardless of which player had the higher rollouts, and so we can conclude that that is an effect due to rollouts and not who goes first. 
+
